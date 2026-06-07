@@ -77,6 +77,7 @@ declare module '@svgdotjs/svg.js' {
     name: string,
     namespace: 'http://www.w3.org/2000/svg'
   ): SVGElement
+  function resetDid(): void
   function create(
     name: string,
     namespace: 'http://www.w3.org/1999/xhtml'
